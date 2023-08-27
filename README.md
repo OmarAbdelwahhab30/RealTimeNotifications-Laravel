@@ -7,6 +7,8 @@ ________________________________________________________________________________
 - You may notice that the package uses firebase platform!  ... yes, it is true . firebase is the most easier platform you can use for notifications , so to integrate the firebase credentials into your laravel application , watch this simple [ video ](https://www.youtube.com/watch?v=kCq3tQJi88s&ab_channel=FundaOfWebIT) .
 - After firebase integration, let's suppose that you are responsible for the backend implementation part of mobile application project and you need to send a notification for the new system users for just greeting them .
 - After package installation , you can start send notications now !
+
+> php artisan make:controller NotificationController
 ```
 <?php
 
