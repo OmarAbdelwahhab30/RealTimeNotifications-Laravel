@@ -1,5 +1,7 @@
 # RealTimeNotifications-Laravel
 Here you will find some basic knowledge of how to send push notifications from laravel code to mobile application device .
+
+##Sendign notifications for specific devices!
 _________________________________________________________________________________________________
 - Usually push notifications has become an essential part of every mobile application.
 - Before we start , look at this [ package ](https://firebase-php.readthedocs.io/en/stable/index.html) ,we will use it in our implementation.
@@ -8,7 +10,7 @@ ________________________________________________________________________________
 - After firebase integration, let's suppose that you are responsible for the backend implementation part of mobile application project and you need to send a notification for the new system users for just greeting them .
 - After package installation , you can start send notications now !
 
-
+In your terminal , make a controller using the command:
 ```php artisan make:controller NotificationController```
 
 
