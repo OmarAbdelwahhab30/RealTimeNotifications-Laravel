@@ -1,8 +1,9 @@
 # RealTimeNotifications-Laravel
 Here you will find some basic knowledge of how to send push notifications from laravel code to mobile application device .
+_________________________________________________________________________________________________
 
 ### 1) Sending notifications to [specific devices](https://firebase-php.readthedocs.io/en/stable/cloud-messaging.html#send-messages-to-specific-devices)! 
-_________________________________________________________________________________________________
+
 - Usually push notifications has become an essential part of every mobile application.
 - Before we start , look at this [ package ](https://firebase-php.readthedocs.io/en/stable/index.html) ,we will use it in our implementation.
 
@@ -52,7 +53,7 @@ class NotificationController
  _________________________________________________________________________________________________
   
 ### 2) Sending notifications to collection of users or ([topics](https://firebase-php.readthedocs.io/en/stable/cloud-messaging.html#send-messages-to-topics))! 
-_________________________________________________________________________________________________
+
 
 
 - Let's suppose there are three different types of users in your application , customers,sellers and managers ... each of them is called a topic or a role as known in laravel
