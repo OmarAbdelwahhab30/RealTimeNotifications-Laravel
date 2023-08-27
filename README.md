@@ -8,7 +8,10 @@ ________________________________________________________________________________
 - After firebase integration, let's suppose that you are responsible for the backend implementation part of mobile application project and you need to send a notification for the new system users for just greeting them .
 - After package installation , you can start send notications now !
 
-> php artisan make:controller NotificationController
+
+```php artisan make:controller NotificationController```
+
+
 ```
 <?php
 
