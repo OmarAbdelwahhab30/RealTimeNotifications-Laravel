@@ -35,13 +35,12 @@ class NotificationController
 
     public function notify(Request $request)
     {
-          $message = CloudMessage::fromArray([
-              'token' => $request->deviceToken,
-              'notification' => ['Welcome for our new users !!'],
-              'data' => [/* any data you need to send with the notifications*/],// optional
-          ]);
-          
-          $messaging->send($message);
+
+         $message = CloudMessage::withTarget('token',$request->device_token)
+                ->withNotification(\Kreait\Firebase\Messaging\Notification::create('Real Time Notification',
+                    "Hello for our system"))
+                ->withData(array());
+            $this->messaging->send($message);
       }
 
 
